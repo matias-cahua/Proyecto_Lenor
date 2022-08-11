@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraf"
+    android:label="Rules"
+    app:startDestination="@id/fragment0">
+    <fragment
+        android:id="@+id/fragment0"
+        android:name="com.example.mi_proyecto.navii1.Fragment0"
+        android:label="fragment_0"
+        tools:layout="@layout/fragment_0" >
+        <action
+            android:id="@+id/action_fragment0_to_fragmentRegister"
+            app:destination="@id/fragmentRegister" />
+        <action
+            android:id="@+id/action_fragment0_to_fragmentHost"
+            app:destination="@id/fragmentHost" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/fragmentRegister"
+        android:name="com.example.mi_proyecto.navii1.FragmentRegister"
+        android:label="fragment_register"
+        tools:layout="@layout/fragment_register" >
+        <action
+            android:id="@+id/action_fragmentRegister_to_fragment0"
+            app:destination="@id/fragment0" />
+    </fragment>
+    <fragment
+        android:id="@+id/fragmentHost"
+        android:name="com.example.mi_proyecto.navii1.FragmentHost"
+        android:label="fragment_host"
+        tools:layout="@layout/fragment_host" >
+        <argument
+            android:name="id"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_fragmentHost_to_editFragment2"
+            app:destination="@id/editFragment2" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment2"
+        android:name="com.example.mi_proyecto.navii1.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" />
+
+</navigation>

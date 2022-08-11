@@ -1,0 +1,427 @@
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navii1.EditFragment" >
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="5dp" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintGuide_begin="404dp" />
+
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="48dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Marca"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <EditText
+        android:id="@+id/textVolCong"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView27"
+        app:layout_constraintTop_toBottomOf="@+id/textVolRefri" />
+
+    <EditText
+        android:id="@+id/textConsumo"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView20"
+        app:layout_constraintTop_toBottomOf="@+id/textClase" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Volumen del Regrigerador(L)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView20" />
+
+    <EditText
+        android:id="@+id/textEscar"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView23"
+        app:layout_constraintTop_toBottomOf="@+id/textEstre" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Volumen del Congelador    **(L)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <Button
+        android:id="@+id/btn_save"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="632dp"
+        android:text="Guardar"
+        app:layout_constraintBottom_toTopOf="@+id/guideline8"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <EditText
+        android:id="@+id/textAuto"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView30"
+        app:layout_constraintTop_toBottomOf="@+id/textEscar" />
+
+    <TextView
+        android:id="@+id/textView27"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Volumen del Congelador ****(L)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView21" />
+
+    <EditText
+        android:id="@+id/textCategoria"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView6"
+        app:layout_constraintTop_toBottomOf="@+id/textModelo" />
+
+    <EditText
+        android:id="@+id/textModelo"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="216dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textMarca" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Producto sin escarcha"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView22" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Estrellas"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView3" />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Volumen del Congelador    **(L)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView27" />
+
+    <TextView
+        android:id="@+id/textView34"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Capacidad de congelamiento (kg/24h)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView30" />
+
+    <EditText
+        android:id="@+id/textEstre"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView22"
+        app:layout_constraintTop_toBottomOf="@+id/textVolCong2" />
+
+    <EditText
+        android:id="@+id/textVolRefri"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView21"
+        app:layout_constraintTop_toBottomOf="@+id/textConsumo" />
+
+    <EditText
+        android:id="@+id/textClima"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView35"
+        app:layout_constraintTop_toBottomOf="@+id/textCapa" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Clase de Eficiencia Energetica"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView6" />
+
+    <TextView
+        android:id="@+id/textView30"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Autonomia(h)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView23" />
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Categoria del aparato"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView4" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Clase Climatica"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView34" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Consumo de energía            (kWh/año)"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView19" />
+
+    <EditText
+        android:id="@+id/textVolCong2"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView3"
+        app:layout_constraintTop_toBottomOf="@+id/textVolCong" />
+
+    <EditText
+        android:id="@+id/textCapa"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView34"
+        app:layout_constraintTop_toBottomOf="@+id/textAuto" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Modelo"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView7" />
+
+    <EditText
+        android:id="@+id/textRuido"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView36"
+        app:layout_constraintTop_toBottomOf="@+id/textClima" />
+
+    <TextView
+        android:id="@+id/textView36"
+        android:layout_width="200dp"
+        android:layout_height="40dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:text="   Nivel de ruido(dB(A))"
+        app:layout_constraintEnd_toStartOf="@+id/guideline3"
+        app:layout_constraintHorizontal_bias="0.015"
+        app:layout_constraintStart_toStartOf="@+id/guideline2"
+        app:layout_constraintTop_toBottomOf="@+id/textView35" />
+
+    <EditText
+        android:id="@+id/textClase"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="4dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView19"
+        app:layout_constraintTop_toBottomOf="@+id/textCategoria" />
+
+    <EditText
+        android:id="@+id/textMarca"
+        android:layout_width="140dp"
+        android:layout_height="40dp"
+        android:layout_marginStart="8dp"
+        android:layout_marginTop="48dp"
+        android:background="#2196F3"
+        android:gravity="center_vertical"
+        android:inputType="text"
+        app:layout_constraintStart_toEndOf="@+id/textView7"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_percent="0.023255814" />
+
+    <androidx.constraintlayout.widget.Guideline
+        android:id="@+id/guideline8"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        app:layout_constraintGuide_begin="725dp" />
+
+    <EditText
+        android:id="@+id/textMode"
+        android:layout_width="wrap_content"
+        android:layout_height="38dp"
+        android:layout_marginTop="8dp"
+        android:width="165dp"
+        android:text="txtModelo"
+        android:textAlignment="center"
+        android:textSize="14sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/guideline4" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

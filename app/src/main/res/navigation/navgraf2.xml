@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/navgraf2"
+    app:startDestination="@id/fragment1">
+
+    <fragment
+        android:id="@+id/featuresFragment"
+        android:name="com.example.mi_proyecto.navii1.FeaturesFragment"
+        android:label="Ficha Técnica"
+        tools:layout="@layout/fragment_features">
+        <argument
+            android:name="idF"
+            app:argType="integer" />
+        <action
+            android:id="@+id/action_featuresFragment_to_editFragment"
+            app:destination="@id/editFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/settingsFragment2"
+        android:name="com.example.mi_proyecto.navii1.SettingsFragment"
+        android:label="fragment_settings"
+        tools:layout="@layout/fragment_settings" />
+    <fragment
+        android:id="@+id/fragment1"
+        android:name="com.example.mi_proyecto.navii1.Fragment1"
+        android:label="fragment_1"
+        tools:layout="@layout/fragment_1" >
+        <action
+            android:id="@+id/action_fragment1_to_featuresFragment"
+            app:destination="@id/featuresFragment" />
+        <action
+            android:id="@+id/action_fragment1_to_newProdFragment"
+            app:destination="@id/newProdFragment" />
+    </fragment>
+    <fragment
+        android:id="@+id/profileFragment3"
+        android:name="com.example.mi_proyecto.navii1.ProfileFragment"
+        android:label="fragment_profile"
+        tools:layout="@layout/fragment_profile" />
+    <fragment
+        android:id="@+id/newProdFragment"
+        android:name="com.example.mi_proyecto.navii1.NewProdFragment"
+        android:label="fragment_new_prod"
+        tools:layout="@layout/fragment_new_prod" >
+        <action
+            android:id="@+id/action_newProdFragment_to_fragment1"
+            app:destination="@id/fragment1" />
+    </fragment>
+    <fragment
+        android:id="@+id/editFragment"
+        android:name="com.example.mi_proyecto.navii1.EditFragment"
+        android:label="fragment_edit"
+        tools:layout="@layout/fragment_edit" >
+        <action
+            android:id="@+id/action_editFragment_to_featuresFragment"
+            app:destination="@id/featuresFragment" />
+    </fragment>
+</navigation>

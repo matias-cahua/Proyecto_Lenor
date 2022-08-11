@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+
+    <!--Each item id should be same as in the navgraf fragment id-->
+    <item
+        android:id="@+id/action_edit"
+        android:icon="@drawable/ic_create_black_18dp"
+        android:title="edit"
+        android:visible="true"
+        app:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/action_setting"
+        android:icon="@drawable/ic_settings"
+        android:title="@string/settings"
+        app:showAsAction="never" />
+
+</menu>

@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/frameLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".navii1.FeaturesFragment">
+
+    <TableLayout
+        android:id="@+id/frameLayout4"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        tools:context=".navii1.FeaturesFragment">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Marca"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Marca"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Modelo"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Modelo"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="35dp"
+                android:layout_column="1"
+                android:text="Categoria"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Categoria"
+                android:layout_width="165dp"
+                android:layout_height="35dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Clase de eficiencia energetica"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_ClaseEE"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Consumo de energia(kWh/año)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Consumo"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Volumen del Refri.(L)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_VolRef"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Volumen del Cong.****(L)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_VolCong4"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Volumen del Cong.**(L)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_VolCong2"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Estrellas"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Estrellas"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Producto Sin Escarcha"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Escarcha"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Autonomia(h)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Auto"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Capacidad de cong.(kg/24h)"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Capa"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Clase Climatica"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Clima"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+        <TableRow>
+
+            <TextView
+                android:layout_width="201dp"
+                android:layout_height="30dp"
+                android:layout_column="1"
+                android:text="Nivel de ruido(dB(A))"
+                android:textAlignment="gravity"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/txt_Ruido"
+                android:layout_width="165dp"
+                android:layout_height="30dp"
+                android:width="165dp" />
+        </TableRow>
+
+
+
+    </TableLayout>
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>
+
+
+
